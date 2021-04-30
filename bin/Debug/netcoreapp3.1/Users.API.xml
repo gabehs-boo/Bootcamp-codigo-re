@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Users.API</name>
+    </assembly>
+    <members>
+        <member name="M:Users.API.Domain.Services.Communication.UserResponse.#ctor(Users.API.Domain.Models.User)">
+            <summary>
+            Creates a success response.
+            </summary>
+            <param name="User">Saved User.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Users.API.Domain.Services.Communication.UserResponse.#ctor(System.String)">
+            <summary>
+            Creates am error response.
+            </summary>
+            <param name="message">Error message.</param>
+            <returns>Response.</returns>
+        </member>
+    </members>
+</doc>
